@@ -1,216 +1,177 @@
-<!-- ========================================================= -->
-
-<!--                     AYUSH KUMAR JHA                        -->
-
-<!-- ========================================================= -->
+<!-- ========================= HEADER ========================= -->
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:0F172A,50:111827,100:020617&text=AYUSH%20KUMAR%20JHA&fontColor=38BDF8&fontSize=42&fontAlignY=38&desc=Software%20Engineer%20%7C%20DevOps%20%7C%20AI%2FML%20%7C%20Cybersecurity&descAlignY=60&descSize=18&animation=fadeIn" width="100%"/>
+# 👋 Hey, I'm Ayush Kumar Jha
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&pause=1200&color=38BDF8&center=true&vCenter=true&width=850&lines=Building+reliable+software+systems;Automating+infrastructure+with+DevOps;Exploring+AI%2FML+and+LLM+systems;Engineering+secure+and+scalable+applications;Linux+%7C+Docker+%7C+Kubernetes+%7C+Python;Open+Source+%7C+System+Programming+%7C+Security" alt="Typing SVG"/>
+### `CSE Student` • `DevOps Engineer` • `Cybersecurity Enthusiast` • `AI/ML Developer`
 
-<br/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00F7FF&center=true&vCenter=true&width=800&lines=Building+Reliable+%26+Scalable+Systems;DevOps+%7C+Linux+%7C+Docker+%7C+Kubernetes;Cybersecurity+%7C+Ethical+Hacking;AI%2FML+%7C+Intelligent+Systems;Open+Source+Contributor;Always+Learning%2C+Always+Building+%F0%9F%9A%80" alt="Typing SVG" />
+
+<br>
 
 <a href="https://github.com/ayushjha2004">
-<img src="https://img.shields.io/github/followers/ayushjha2004?style=flat-square&logo=github&label=Followers&color=38BDF8"/>
+<img src="https://komarev.com/ghpvc/?username=ayushjha2004&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views"/>
 </a>
-&nbsp;
+
+<a href="https://github.com/ayushjha2004?tab=followers">
+<img src="https://img.shields.io/github/followers/ayushjha2004?label=Followers&style=flat&logo=github" alt="GitHub Followers"/>
+</a>
+
 <a href="https://github.com/ayushjha2004?tab=repositories">
-<img src="https://img.shields.io/badge/Repositories-Explore-111827?style=flat-square&logo=github"/>
-</a>
-&nbsp;
-<a href="mailto:ayushjha8922@gmail.com">
-<img src="https://img.shields.io/badge/Email-Contact-111827?style=flat-square&logo=gmail"/>
+<img src="https://img.shields.io/github/stars/ayushjha2004?label=Stars&style=flat&logo=github" alt="GitHub Stars"/>
 </a>
 
 </div>
 
 ---
 
-## `$ whoami`
+## 🧑‍💻 About Me
 
-```bash
-ayush@devbox:~$ whoami
+```yaml
+name: Ayush Kumar Jha
+username: ayushjha2004
+role: Computer Science Engineering Student
 
-Ayush Kumar Jha
+focus:
+  - DevOps & Cloud Engineering
+  - Linux & System Development
+  - Cybersecurity & Ethical Hacking
+  - Artificial Intelligence & Machine Learning
+  - Full-Stack Development
+  - Open Source
 
-Computer Science Engineering Student
-DevOps • AI/ML • Cybersecurity • Systems Engineering
+currently_learning:
+  - Kubernetes
+  - CI/CD
+  - Cloud Infrastructure
+  - Advanced Linux
+  - Machine Learning
+  - System Design
 
-ayush@devbox:~$ cat philosophy.txt
-
-Build things that work.
-Automate what repeats.
-Secure what matters.
-Understand the system underneath.
-Keep learning.
+mindset:
+  - Build
+  - Automate
+  - Secure
+  - Learn
+  - Contribute
 ```
 
-I'm interested in **software engineering, DevOps, Linux systems, cybersecurity, and AI/ML**.
-
-I enjoy taking an idea from:
-
-`Architecture → Implementation → Testing → Automation → Deployment`
-
-and turning it into something that can actually run.
+> 💡 **I enjoy turning ideas into practical systems, automating repetitive work, exploring security, and building intelligent software.**
 
 ---
 
-## 🧭 Engineering Focus
+## ⚙️ DevOps & Cloud
 
-<div align="center">
+<p align="center">
 
-| Area               | Focus                                                |
-| ------------------ | ---------------------------------------------------- |
-| ⚙️ **DevOps**      | Linux · Docker · Kubernetes · CI/CD · Infrastructure |
-| 🤖 **AI/ML**       | Machine Learning · LLMs · RAG · Intelligent Systems  |
-| 🔐 **Security**    | Networking · Web Security · Vulnerability Research   |
-| 🐧 **Systems**     | Linux · OS Development · C · Assembly                |
-| 💻 **Software**    | Python · TypeScript · React · Node.js                |
-| 🌐 **Open Source** | Git · GitHub · Issues · Pull Requests                |
+<img src="https://skillicons.dev/icons?i=linux,docker,kubernetes,git,github,githubactions,nginx,terraform,aws,bash" />
 
-</div>
-
----
-
-# 🛠️ Technology Stack
-
-### Languages
-
-<p>
-<img src="https://skillicons.dev/icons?i=python,c,cpp,java,javascript,typescript,bash&theme=dark"/>
-</p>
-
-### Backend & Web
-
-<p>
-<img src="https://skillicons.dev/icons?i=nodejs,express,flask,react,vite&theme=dark"/>
-</p>
-
-### DevOps & Infrastructure
-
-<p>
-<img src="https://skillicons.dev/icons?i=linux,docker,kubernetes,git,github,githubactions,nginx,terraform&theme=dark"/>
-</p>
-
-### AI / Machine Learning
-
-<p>
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn&theme=dark"/>
-</p>
-
-<p>
-<img src="https://img.shields.io/badge/Ollama-111827?style=for-the-badge&logo=ollama&logoColor=white"/>
-<img src="https://img.shields.io/badge/LLM_Systems-111827?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/RAG-111827?style=for-the-badge"/>
-</p>
-
-### Databases & Tools
-
-<p>
-<img src="https://skillicons.dev/icons?i=sqlite,postgres,redis,vscode,postman&theme=dark"/>
 </p>
 
 ---
 
-# 🚀 Selected Engineering Projects
+## 💻 Programming & Development
+
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=python,c,cpp,java,javascript,typescript,react,vite,nodejs,express,flask" />
+
+</p>
+
+---
+
+## 🤖 AI / ML
+
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn" />
+
+</p>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/Machine%20Learning-FF6F00?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
+<img src="https://img.shields.io/badge/Artificial%20Intelligence-412991?style=for-the-badge&logo=openai&logoColor=white"/>
+<img src="https://img.shields.io/badge/LLM-8A2BE2?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/RAG-0066FF?style=for-the-badge"/>
+
+</p>
+
+---
+
+## 🔐 Cybersecurity
+
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=linux,bash,python" />
+
+</p>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/Cybersecurity-111111?style=for-the-badge&logo=hackthebox&logoColor=9FEF00"/>
+<img src="https://img.shields.io/badge/Ethical%20Hacking-111111?style=for-the-badge&logo=kalilinux&logoColor=557C94"/>
+<img src="https://img.shields.io/badge/Networking-005571?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Web%20Security-B22222?style=for-the-badge"/>
+
+</p>
+
+---
+
+# 🚀 Featured Projects
 
 <div align="center">
 
 <a href="https://github.com/ayushjha2004/ayush-portfolio">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=ayushjha2004&repo=ayush-portfolio&theme=github_dark&hide_border=true"/>
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=ayushjha2004&repo=ayush-portfolio&theme=tokyonight&hide_border=true" />
 </a>
 
 </div>
 
-### 🤖 AI / Intelligent Systems
+### 🤖 AI & Intelligent Systems
 
-**AI Software Risk Platform**
+| Project                          | Description                                     | Technologies                   |
+| -------------------------------- | ----------------------------------------------- | ------------------------------ |
+| 🧠 **AI Software Risk Platform** | ML-based software risk analysis platform        | Python • ML • React            |
+| 🤖 **Jarvis**                    | Local AI assistant with automation capabilities | Python • Ollama • AI           |
+| 🔎 **AI Codebase Explorer**      | Intelligent codebase exploration and analysis   | React • TypeScript • RAG • LLM |
 
-> Machine-learning platform for analysing and quantifying software-related risk.
+### 🔐 Cybersecurity
 
-`Python` `Machine Learning` `React` `APIs`
+| Project                              | Description                             | Technologies             |
+| ------------------------------------ | --------------------------------------- | ------------------------ |
+| 🛡️ **AI Penetration Testing Agent** | Intelligent security testing automation | Python • AI • Security   |
+| 🌐 **Network Scanning Tool**         | Network discovery and security analysis | Python • Networking      |
+| 🧪 **XSS & SQLi Training Lab**       | Vulnerability training environment      | Flask • React • Security |
 
----
+### ⚙️ Systems & Development
 
-**Jarvis — Local AI Assistant**
-
-> Local-first AI assistant focused on automation, reasoning and system interaction.
-
-`Python` `Ollama` `LLM` `Automation` `Linux`
-
----
-
-**AI Smart Codebase Explorer**
-
-> Intelligent codebase exploration system designed around local LLMs, RAG and developer workflows.
-
-`React` `TypeScript` `RAG` `LLM` `Code Analysis`
-
----
-
-### 🔐 Security Engineering
-
-**AI Penetration Testing Agent**
-
-> Security automation project exploring AI-assisted vulnerability assessment workflows.
-
-`Python` `AI` `Networking` `Security`
+| Project                        | Description                             | Technologies                          |
+| ------------------------------ | --------------------------------------- | ------------------------------------- |
+| 🖥️ **AyushOS**                | Experimental 32-bit operating system    | C • Assembly • QEMU                   |
+| 🎓 **SmartCampus Pro**         | Campus management platform              | React • TypeScript • Node.js • SQLite |
+| 📋 **Leave Management System** | Full-stack leave management application | React • Node.js • SQLite              |
 
 ---
 
-**Network Scanning Tool**
-
-> Network discovery and analysis tool for understanding hosts, services and network exposure.
-
-`Python` `Networking` `Security`
-
----
-
-**XSS / SQLi Training Laboratory**
-
-> Educational security environment for learning and testing common web vulnerabilities.
-
-`Flask` `React` `Python` `Web Security`
-
----
-
-### 🐧 Systems Engineering
-
-**AyushOS**
-
-> Experimental 32-bit operating system built from the ground up to explore low-level computing.
-
-`C` `Assembly` `x86` `GDT` `IDT` `Paging` `QEMU`
-
----
-
-### 🎓 Full-Stack Engineering
-
-**SmartCampus Pro**
-
-> Role-based campus management platform designed around students, faculty and administration.
-
-`React` `TypeScript` `Node.js` `Express` `SQLite`
-
----
-
-# 📊 GitHub Engineering Activity
+# 📊 GitHub Statistics
 
 <div align="center">
 
-<img height="175" src="https://github-readme-stats.vercel.app/api?username=ayushjha2004&show_icons=true&hide_border=true&theme=github_dark&rank_icon=github&include_all_commits=true"/>
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=ayushjha2004&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" />
 
-<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayushjha2004&layout=compact&hide_border=true&theme=github_dark&langs_count=8"/>
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayushjha2004&layout=compact&theme=tokyonight&hide_border=true" />
 
 </div>
 
-<br/>
+---
+
+# 🔥 Contribution Streak
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=ayushjha2004&theme=github-dark-blue&hide_border=true"/>
+<img src="https://streak-stats.demolab.com?user=ayushjha2004&theme=tokyonight&hide_border=true" />
 
 </div>
 
@@ -220,208 +181,150 @@ and turning it into something that can actually run.
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ayushjha2004&bg_color=0D1117&color=38BDF8&line=38BDF8&point=FFFFFF&area=true&hide_border=true" width="95%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ayushjha2004&theme=tokyo-night&hide_border=true&area=true" />
 
 </div>
 
 ---
 
-# 🐍 Contribution Snake
+# 🧠 Currently Exploring
+
+```text
+                    ┌─────────────────────┐
+                    │     DEVOPS / CLOUD   │
+                    └──────────┬──────────┘
+                               │
+             ┌─────────────────┼─────────────────┐
+             │                 │                 │
+          Docker           Kubernetes        CI/CD
+             │                 │                 │
+             └─────────────────┼─────────────────┘
+                               │
+                    ┌──────────▼──────────┐
+                    │    AI / ML / LLM    │
+                    └──────────┬──────────┘
+                               │
+                  ┌────────────┼────────────┐
+                  │            │            │
+                 RAG          LLM       Automation
+                  │            │            │
+                  └────────────┼────────────┘
+                               │
+                    ┌──────────▼──────────┐
+                    │    CYBERSECURITY    │
+                    └──────────┬──────────┘
+                               │
+                 ┌─────────────┼─────────────┐
+                 │             │             │
+              Network         Web         Pentesting
+              Security      Security       Tools
+```
+
+---
+
+# 🛠️ My Development Workflow
+
+```text
+💡 Idea
+   ↓
+📋 Design
+   ↓
+💻 Development
+   ↓
+🧪 Testing
+   ↓
+🐳 Containerization
+   ↓
+⚙️ CI/CD
+   ↓
+🚀 Deployment
+   ↓
+📊 Monitoring
+   ↓
+🔐 Security
+```
+
+---
+
+# 🏆 GitHub Achievements
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/ayushjha2004/ayushjha2004/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake"/>
+<a href="https://github.com/ayushjha2004">
+<img src="https://github-profile-trophy.vercel.app/?username=ayushjha2004&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1" />
+</a>
 
 </div>
-
-> The snake animation requires a GitHub Actions workflow in this profile repository.
-
----
-
-# 🧩 Engineering Workflow
-
-```text
-                    ┌─────────────────┐
-                    │      IDEA       │
-                    └────────┬────────┘
-                             ↓
-                    ┌─────────────────┐
-                    │    ARCHITECT    │
-                    └────────┬────────┘
-                             ↓
-                    ┌─────────────────┐
-                    │      BUILD      │
-                    └────────┬────────┘
-                             ↓
-                    ┌─────────────────┐
-                    │      TEST       │
-                    └────────┬────────┘
-                             ↓
-                    ┌─────────────────┐
-                    │   CONTAINERIZE  │
-                    └────────┬────────┘
-                             ↓
-                    ┌─────────────────┐
-                    │      CI/CD      │
-                    └────────┬────────┘
-                             ↓
-                    ┌─────────────────┐
-                    │     DEPLOY      │
-                    └────────┬────────┘
-                             ↓
-                    ┌─────────────────┐
-                    │    MONITOR      │
-                    └────────┬────────┘
-                             ↓
-                    ┌─────────────────┐
-                    │     SECURE      │
-                    └─────────────────┘
-```
-
----
-
-# ☁️ DevOps Mindset
-
-```text
-Code
- │
- ├── Version Control ──────── Git / GitHub
- │
- ├── Build ────────────────── CI
- │
- ├── Test ─────────────────── Automated Tests
- │
- ├── Package ──────────────── Docker
- │
- ├── Deploy ───────────────── Kubernetes / Cloud
- │
- ├── Observe ──────────────── Logs / Metrics
- │
- └── Secure ───────────────── Security / Hardening
-```
-
----
-
-# 🔬 Currently Exploring
-
-```text
-┌────────────────────────────────────────────────────┐
-│                  CURRENTLY LEARNING                │
-├────────────────────────────────────────────────────┤
-│                                                    │
-│  ☸ Kubernetes          → Container orchestration  │
-│  ⚙ CI/CD               → Automated delivery       │
-│  🐧 Advanced Linux      → Systems & infrastructure │
-│  🤖 LLM / RAG          → AI applications          │
-│  🔐 Security            → Secure software          │
-│  🏗 System Design      → Scalable architectures   │
-│  ☁ Cloud               → Infrastructure           │
-│                                                    │
-└────────────────────────────────────────────────────┘
-```
 
 ---
 
 # 🌱 Open Source
 
-I enjoy learning by **reading real code, fixing real issues and contributing to real projects**.
+I believe that **open source is one of the best ways to learn by building with others.**
 
-Areas I'm interested in:
+Currently interested in contributing to projects related to:
+
+* ⚙️ DevOps
+* 🐧 Linux
+* 🔐 Cybersecurity
+* 🤖 AI/ML
+* 🐳 Docker
+* ☸️ Kubernetes
+* 🛠️ Developer Tools
+* 🌐 Open Source Infrastructure
+
+---
+
+# 📚 Learning Philosophy
 
 ```text
-Linux
-  ├── Systems
-  ├── Networking
-  └── Developer Tools
-
-DevOps
-  ├── Containers
-  ├── CI/CD
-  └── Infrastructure
-
-Security
-  ├── Web Security
-  ├── Networking
-  └── Security Automation
-
-AI
-  ├── Machine Learning
-  ├── LLMs
-  └── Developer Tools
+        Learn
+          ↓
+        Build
+          ↓
+       Break
+          ↓
+       Debug
+          ↓
+       Improve
+          ↓
+      Automate
+          ↓
+       Share
+          ↓
+       Repeat 🔁
 ```
 
 ---
 
-# 🎯 2026 Engineering Goals
+# 🎯 2026 Goals
 
-```text
-[ ] Deepen Kubernetes knowledge
-[ ] Build production-oriented CI/CD pipelines
-[ ] Improve cloud infrastructure skills
-[ ] Build advanced local AI systems
-[ ] Contribute regularly to open source
-[ ] Strengthen system design fundamentals
-[ ] Build more Linux/system-level software
-[ ] Develop security-focused developer tools
-[ ] Ship projects instead of only prototyping
-```
+* [ ] Become highly proficient in DevOps
+* [ ] Build production-ready cloud infrastructure
+* [ ] Master Docker & Kubernetes
+* [ ] Build advanced AI/ML systems
+* [ ] Improve cybersecurity skills
+* [ ] Contribute consistently to open source
+* [ ] Build and deploy scalable applications
+* [ ] Develop stronger system design skills
+* [ ] Build more Linux/system-level projects
 
 ---
 
-# 📚 How I Learn
-
-<div align="center">
-
-**READ → BUILD → BREAK → DEBUG → AUTOMATE → DOCUMENT → SHARE**
-
-</div>
-
-```text
-                    ┌──────────┐
-                    │   READ   │
-                    └────┬─────┘
-                         ↓
-                    ┌──────────┐
-                    │  BUILD   │
-                    └────┬─────┘
-                         ↓
-                    ┌──────────┐
-                    │  BREAK   │
-                    └────┬─────┘
-                         ↓
-                    ┌──────────┐
-                    │  DEBUG   │
-                    └────┬─────┘
-                         ↓
-                    ┌──────────┐
-                    │ AUTOMATE │
-                    └────┬─────┘
-                         ↓
-                    ┌──────────┐
-                    │ DOCUMENT │
-                    └────┬─────┘
-                         ↓
-                    ┌──────────┐
-                    │  SHARE   │
-                    └──────────┘
-```
-
----
-
-# 🤝 Let's Connect
+# 📫 Connect With Me
 
 <div align="center">
 
 <a href="https://github.com/ayushjha2004">
-<img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
-<a href="mailto:ayushjha8922@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335"/>
+<a href="mailto:[ayushjha8922@gmail.com](mailto:ayushjha8922@gmail.com)">
+<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
 <a href="https://www.linkedin.com/">
-<img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2"/>
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
 </div>
@@ -430,10 +333,10 @@ AI
 
 <div align="center">
 
-### `Engineering is not just writing code — it's understanding the system.`
+### 💬 *"Build systems. Automate everything. Secure what matters."*
 
-<br/>
+<br>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,50:111827,100:0F172A&height=100&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,100:7F00FF&height=120&section=footer"/>
 
 </div>
