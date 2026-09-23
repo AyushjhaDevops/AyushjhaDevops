@@ -30,7 +30,7 @@
 
 ```yaml
 name: Ayush Kumar Jha
-username: ayushjha2004
+username: AyushjhaDevops
 role: Computer Science Engineering Student
 
 focus:
@@ -319,7 +319,7 @@ Currently interested in contributing to projects related to:
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
-<a href="mailto:[ayushjha8922@gmail.com](mailto:ayushjha8922@gmail.com)">
+<a href="mailto:[jha434745@gmail.com](mailto:jha434745@gmail.com)">
 <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
