@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050b08">
+  <meta name="description" content="Matrix-inspired interactive portfolio terminal for Ayush Kumar Jha.">
+  <title>Ayush Kumar Jha | Interactive Terminal</title>
+  <style>
+    :root{color-scheme:dark;--bg:#050b08;--panel:#07130d;--green:#39ff88;--muted:#8bbda0;--border:#17492c}
+    *{box-sizing:border-box}
+    body{margin:0;min-height:100vh;background:radial-gradient(ellipse at top,#0b2516 0%,var(--bg) 55%);color:#d7ffe5;font:15px/1.6 ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;display:grid;place-items:center;padding:24px}
+    .wrap{width:min(920px,100%)}
+    .topline{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;color:var(--muted);font-size:.8rem;margin:0 0 12px}
+    .terminal{border:1px solid var(--border);border-radius:14px;overflow:hidden;background:rgba(3,12,7,.96);box-shadow:0 0 42px #00ff4114,0 20px 70px #0008}
+    .bar{display:flex;align-items:center;gap:8px;padding:13px 16px;background:#0b1c11;border-bottom:1px solid var(--border)}
+    .dot{width:10px;height:10px;border-radius:50%;background:#ff5f57}.dot:nth-child(2){background:#febc2e}.dot:nth-child(3){background:#28c840}
+    .bar-title{margin-left:8px;color:#a8d6b7;font-size:.8rem}
+    .screen{padding:clamp(16px,4vw,30px);min-height:390px}
+    h1{font-size:clamp(1.1rem,3vw,1.5rem);color:var(--green);margin:0 0 5px}
+    .sub{color:var(--muted);margin:0 0 22px;font-size:.86rem}
+    #output{white-space:pre-wrap;overflow-wrap:anywhere;min-height:210px}
+    .line{margin:0 0 8px}.prompt{color:var(--green)}.muted{color:var(--muted)}.error{color:#ff8b8b}.accent{color:#82d9ff}
+    form{display:flex;align-items:center;gap:10px;border-top:1px dashed #17492c;padding-top:14px;margin-top:18px}
+    label{color:var(--green);white-space:nowrap}
+    input{flex:1;min-width:0;background:transparent;color:#e6ffed;border:0;outline:0;font:inherit;caret-color:var(--green)}
+    input:focus-visible{outline:1px solid var(--green);outline-offset:5px}
+    button,.back{border:1px solid var(--border);background:#0b1c11;color:var(--green);border-radius:8px;padding:8px 12px;font:inherit;text-decoration:none;cursor:pointer}
+    button:hover,.back:hover{background:#12331d}
+    .actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+    .hint{color:#719b7f;font-size:.78rem;margin-top:14px}
+    footer{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:15px;color:#719b7f;font-size:.78rem}
+    a{color:var(--green)}
+    @media(prefers-reduced-motion:no-preference){.terminal{animation:glow 4s ease-in-out infinite alternate}@keyframes glow{to{box-shadow:0 0 55px #00ff411c,0 20px 70px #0008}}}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="topline"><span>AYUSH://PORTFOLIO</span><span>SESSION: PUBLIC · MODE: READ-ONLY</span></div>
+    <section class="terminal" aria-label="Interactive portfolio terminal">
+      <div class="bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="bar-title">ayush@devbox: ~ — bash-style portfolio</span></div>
+      <div class="screen">
+        <h1>Welcome to Ayush's terminal<span aria-hidden="true">_</span></h1>
+        <p class="sub">A small interactive portfolio. Commands are simulated in this page; this is not a system shell.</p>
+        <div id="output" aria-live="polite"><p class="line muted">Type <span class="accent">help</span> to list available commands.</p></div>
+        <form id="command-form" autocomplete="off">
+          <label for="command">ayush㉿devbox:~$</label>
+          <input id="command" name="command" aria-label="Terminal command" autofocus spellcheck="false" placeholder="try help">
+          <button type="submit">Run</button>
+        </form>
+        <div class="actions">
+          <button type="button" data-command="help">help</button>
+          <button type="button" data-command="whoami">whoami</button>
+          <button type="button" data-command="skills">skills</button>
+          <button type="button" data-command="projects">projects</button>
+          <button type="button" data-command="neofetch">neofetch</button>
+          <button type="button" data-command="clear">clear</button>
+        </div>
+        <p class="hint">Tip: use ↑ / ↓ to browse your command history. No command is sent to a server.</p>
+      </div>
+    </section>
+    <footer><span>Built with HTML, CSS & JavaScript</span><a class="back" href="https://github.com/AyushjhaDevops/AyushjhaDevops">← Back to GitHub profile</a></footer>
+  </main>
+  <script>
+    (() => {
+      const output = document.querySelector('#output');
+      const form = document.querySelector('#command-form');
+      const input = document.querySelector('#command');
+      const history = [];
+      let historyIndex = 0;
+      const commands = {
+        help: () => 'Available commands:\n  help       Show this help\n  whoami     Identity\n  about      About Ayush\n  skills     Areas of focus\n  projects   Featured project names\n  contact    Contact links\n  neofetch   Profile summary\n  date       Current browser date\n  clear      Clear the terminal',
+        whoami: () => 'Ayush Kumar Jha\nComputer Science Engineering student | DevOps | Cybersecurity | AI/ML',
+        about: () => 'I enjoy turning ideas into practical systems, automating repetitive work, exploring security, and building intelligent software.',
+        skills: () => 'DEVOPS: Linux, Docker, Kubernetes, Git, CI/CD\nDEVELOPMENT: Python, C/C++, JavaScript, TypeScript, React, Node.js\nAI/ML: Machine Learning, LLM concepts, RAG\nSECURITY: Networking, Web Security, Ethical Hacking',
+        projects: () => 'Explore project repositories from the profile README:\n- VulnGuard / DevSecOps security platform\n- Network Scanning Tool\n- AI Penetration Testing Agent\n- Leave Management System\n- AyushOS\nUse the profile page for current repository links.',
+        contact: () => 'GitHub: https://github.com/AyushjhaDevops\nEmail: jha434745@gmail.com\nLinkedIn: add your direct profile URL to the README when ready.',
+        neofetch: () => 'ayush@devbox\n-------------------------\nOS: Linux-minded developer\nRole: CSE Student\nFocus: DevOps / Security / AI-ML\nShell: portfolio-terminal (simulated)\nTheme: Matrix Neon Green',
+        date: () => new Date().toLocaleString(),
+        clear: () => '__CLEAR__'
+      };
+      function addLine(text, className='line') {
+        const p = document.createElement('p');
+        p.className = className;
+        p.textContent = text;
+        output.appendChild(p);
+      }
+      function run(raw) {
+        const command = raw.trim();
+        if (!command) return;
+        history.push(command); historyIndex = history.length;
+        addLine('ayush㉿devbox:~$ ' + command, 'line prompt');
+        const key = command.toLowerCase().split(/\s+/)[0];
+        if (key === 'clear') { output.replaceChildren(); return; }
+        if (key === 'echo') { addLine(command.slice(4)); return; }
+        if (commands[key]) addLine(commands[key]());
+        else addLine('Command not found: ' + key + '. Type help to see supported commands.', 'line error');
+        output.scrollTop = output.scrollHeight;
+      }
+      form.addEventListener('submit', event => { event.preventDefault(); run(input.value); input.value=''; });
+      document.querySelectorAll('[data-command]').forEach(button => button.addEventListener('click', () => { run(button.dataset.command); input.focus(); }));
+      input.addEventListener('keydown', event => {
+        if (event.key === 'ArrowUp') { event.preventDefault(); if (historyIndex > 0) input.value = history[--historyIndex]; }
+        if (event.key === 'ArrowDown') { event.preventDefault(); if (historyIndex < history.length - 1) input.value = history[++historyIndex]; else { historyIndex = history.length; input.value = ''; } }
+      });
+    })();
+  </script>
+</body>
+</html>
