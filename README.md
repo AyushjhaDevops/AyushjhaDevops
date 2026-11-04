@@ -10,15 +10,15 @@
 
 <br>
 
-<a href="https://github.com/ayushjha2004">
-<img src="https://komarev.com/ghpvc/?username=ayushjha2004&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views"/>
+<a href="https://github.com/AyushjhaDevops">
+<img src="https://komarev.com/ghpvc/?username=AyushjhaDevops&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views"/>
 </a>
 
-<a href="https://github.com/ayushjha2004?tab=followers">
+<a href="https://github.com/AyushjhaDevops?tab=followers">
 <img src="https://img.shields.io/github/followers/ayushjha2004?label=Followers&style=flat&logo=github" alt="GitHub Followers"/>
 </a>
 
-<a href="https://github.com/ayushjha2004?tab=repositories">
+<a href="https://github.com/AyushjhaDevops?tab=repositories">
 <img src="https://img.shields.io/github/stars/ayushjha2004?label=Stars&style=flat&logo=github" alt="GitHub Stars"/>
 </a>
 
@@ -119,12 +119,47 @@ mindset:
 
 ---
 
+## ⌨️ Interactive Terminal
+
+Explore my developer profile through a **Matrix-inspired, neon-green terminal**. The terminal is a browser-based portfolio interface—not a real system shell—and does not execute commands on your computer.
+
+<div align="center">
+
+<a href="https://AyushjhaDevops.github.io/AyushjhaDevops/terminal.html">
+  <img src="https://img.shields.io/badge/OPEN-INTERACTIVE_TERMINAL-00FF41?style=for-the-badge&logo=gnubash&logoColor=000000" alt="Open interactive terminal"/>
+</a>
+
+</div>
+
+Try commands such as `help`, `whoami`, `about`, `skills`, `projects`, `contact`, and `neofetch`.
+
+<details>
+<summary><strong>Terminal preview (static README fallback)</strong></summary>
+
+```bash
+ayush㉿devbox:~$ whoami
+Ayush Kumar Jha
+
+ayush㉿devbox:~$ cat focus.txt
+DevOps • Linux • Cybersecurity • AI/ML • Full-Stack
+
+ayush㉿devbox:~$ help
+about  skills  projects  contact  neofetch  clear
+
+ayush㉿devbox:~$ echo "Build. Automate. Secure."
+Build. Automate. Secure.
+```
+
+</details>
+
+---
+
 # 🚀 Featured Projects
 
 <div align="center">
 
-<a href="https://github.com/ayushjha2004/ayush-portfolio">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=ayushjha2004&repo=ayush-portfolio&theme=tokyonight&hide_border=true" />
+<a href="https://github.com/AyushjhaDevops/ayush-portfolio">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=AyushjhaDevops&repo=ayush-portfolio&theme=tokyonight&hide_border=true" />
 </a>
 
 </div>
@@ -159,9 +194,9 @@ mindset:
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=ayushjha2004&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" />
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=AyushjhaDevops&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" />
 
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayushjha2004&layout=compact&theme=tokyonight&hide_border=true" />
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AyushjhaDevops&layout=compact&theme=tokyonight&hide_border=true" />
 
 </div>
 
@@ -171,7 +206,7 @@ mindset:
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=ayushjha2004&theme=tokyonight&hide_border=true" />
+<img src="https://streak-stats.demolab.com?user=AyushjhaDevops&theme=tokyonight&hide_border=true" />
 
 </div>
 
@@ -181,7 +216,7 @@ mindset:
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ayushjha2004&theme=tokyo-night&hide_border=true&area=true" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=AyushjhaDevops&theme=tokyo-night&hide_border=true&area=true" />
 
 </div>
 
@@ -250,8 +285,8 @@ mindset:
 
 <div align="center">
 
-<a href="https://github.com/ayushjha2004">
-<img src="https://github-profile-trophy.vercel.app/?username=ayushjha2004&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1" />
+<a href="https://github.com/AyushjhaDevops">
+<img src="https://github-profile-trophy.vercel.app/?username=AyushjhaDevops&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1" />
 </a>
 
 </div>
@@ -311,15 +346,28 @@ Currently interested in contributing to projects related to:
 
 ---
 
+# 🐍 Contribution Snake
+
+The animation below is generated from my GitHub contribution graph by GitHub Actions.
+
+<div align="center">
+
+![GitHub contribution snake (light mode)](https://raw.githubusercontent.com/AyushjhaDevops/AyushjhaDevops/output/github-snake.svg#gh-light-mode-only)
+![GitHub contribution snake (dark mode)](https://raw.githubusercontent.com/AyushjhaDevops/AyushjhaDevops/output/github-snake-dark.svg#gh-dark-mode-only)
+
+</div>
+
+---
+
 # 📫 Connect With Me
 
 <div align="center">
 
-<a href="https://github.com/ayushjha2004">
+<a href="https://github.com/AyushjhaDevops">
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
-<a href="mailto:[jha434745@gmail.com](mailto:jha434745@gmail.com)">
+<a href="mailto:jha434745@gmail.com">
 <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
