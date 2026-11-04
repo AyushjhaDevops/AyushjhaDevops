@@ -125,7 +125,7 @@ Explore my developer profile through a **Matrix-inspired, neon-green terminal**.
 
 <div align="center">
 
-<a href="https://AyushjhaDevops.github.io/AyushjhaDevops/terminal.html">
+<a href="https://AyushjhaDevops.github.io/AyushjhaDevops/">
   <img src="https://img.shields.io/badge/OPEN-INTERACTIVE_TERMINAL-00FF41?style=for-the-badge&logo=gnubash&logoColor=000000" alt="Open interactive terminal"/>
 </a>
 
