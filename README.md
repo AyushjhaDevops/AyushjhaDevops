@@ -15,11 +15,11 @@
 </a>
 
 <a href="https://github.com/AyushjhaDevops?tab=followers">
-<img src="https://img.shields.io/github/followers/ayushjha2004?label=Followers&style=flat&logo=github" alt="GitHub Followers"/>
+<img src="https://img.shields.io/github/followers/AyushjhaDevops?label=Followers&style=flat&logo=github" alt="GitHub Followers"/>
 </a>
 
 <a href="https://github.com/AyushjhaDevops?tab=repositories">
-<img src="https://img.shields.io/github/stars/ayushjha2004?label=Stars&style=flat&logo=github" alt="GitHub Stars"/>
+<img src="https://img.shields.io/github/stars/AyushjhaDevops?label=Stars&style=flat&logo=github" alt="GitHub Stars"/>
 </a>
 
 </div>
